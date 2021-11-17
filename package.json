@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JSisques/Kratos-Server/issues"
   },
-  "homepage": "https://github.com/JSisques/Kratos-Server#readme"
+  "homepage": "https://github.com/JSisques/Kratos-Server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
