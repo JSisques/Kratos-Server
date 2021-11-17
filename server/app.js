@@ -1,6 +1,14 @@
-const express = require('express');
-const app = express();
+const http = require('http');
 
-app.use(express.static(__dirname + '/public/'));
+const hostname = '0.0.0.0';
+const port = 3000;
 
-app.listen('3000', '0.0.0.0');
+const server = http.createServer((req, res) => {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Hola Mundo');
+});
+
+server.listen(port, hostname, () => {
+  console.log(`El servidor se está ejecutando en http://${hostname}:${port}/`);
+});
