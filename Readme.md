@@ -1,4 +1,4 @@
-# Kratos Server
+# Kratos
 
 ## Getting started
 
@@ -11,6 +11,6 @@
 - [ ] Example
 
 ## License
-
+Distributed under the MIT License. See `License` for more information.
 ## Contact
 
