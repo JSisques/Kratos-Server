@@ -11,6 +11,7 @@ app.use(express.static('public'))
 
 //Rutas
 app.use(require('./services/auth/routes'))
+app.use(require('./microservices/upload_content/routes'))
 
 
 // Iniciamos el servidor en el puerto 8080
